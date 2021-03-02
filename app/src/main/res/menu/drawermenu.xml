@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/chat"
+        android:title="Chat"
+        android:icon="@drawable/chat"
+
+ />
+
+
+    <item android:id="@+id/create"
+        android:title="Register Student"
+        android:icon="@drawable/craeate"
+        />
+
+    <item android:id="@+id/signin"
+        android:title="Sign In"
+        android:icon="@drawable/login"
+        />
+
+
+    <!--<item android:id="@+id/settings"-->
+        <!--android:title="Settings"-->
+        <!--android:icon="@drawable/settings"-->
+        <!--/>-->
+
+    <item android:id="@+id/exit"
+        android:title="Exit"
+        android:icon="@drawable/exit"
+        />
+
+
+</menu>

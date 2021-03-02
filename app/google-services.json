@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "123253868224",
+    "firebase_url": "https://ecampusguide-2f7a9.firebaseio.com",
+    "project_id": "ecampusguide-2f7a9",
+    "storage_bucket": "ecampusguide-2f7a9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:123253868224:android:3b880e089539643e",
+        "android_client_info": {
+          "package_name": "com.example.e_campusguide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "123253868224-o9f0k0tqpro8gf54itnh5olmm9r4f6ro.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.e_campusguide",
+            "certificate_hash": "e983cbc577efb57a612a3f168b3593b61632265b"
+          }
+        },
+        {
+          "client_id": "123253868224-eo1ev0uo39m2visrbk94a5ddpuentmh6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBq40RLW0NEkcud0M2d5gWH7dlut7cV6KQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "123253868224-eo1ev0uo39m2visrbk94a5ddpuentmh6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

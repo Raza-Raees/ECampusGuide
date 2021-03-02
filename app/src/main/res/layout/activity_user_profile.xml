@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UserProfile">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#0983B9">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/circle_border"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imguser">
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/user"
+            android:backgroundTint="@color/cardview_shadow_start_color"
+            android:adjustViewBounds="true"
+            android:scaleType="centerInside"
+            android:background="@drawable/circle"
+            android:layout_margin="9dp"
+            android:padding="3dp"
+            />
+    </RelativeLayout>    
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imguser"
+            android:layout_centerHorizontal="true"
+            android:text="User Name"
+            android:layout_margin="15sp"
+            android:fontFamily="sans-serif-light"
+            android:textColor="@color/white"
+            android:textSize="32sp"/>
+        
+
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/stid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Student id"
+        android:layout_marginLeft="10pt"
+        android:layout_marginTop="10pt"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/stname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Student Name"
+        android:layout_marginLeft="10pt"
+        android:layout_marginTop="15pt"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:layout_marginLeft="10pt"
+        android:layout_marginTop="15pt"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Address"
+        android:layout_marginLeft="10pt"
+        android:layout_marginTop="15pt"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/phn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone No."
+        android:layout_marginLeft="10pt"
+        android:layout_marginTop="15pt"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/program"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Program"
+        android:layout_marginLeft="10pt"
+        android:layout_marginTop="15pt"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/session"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Session"
+        android:layout_marginLeft="10pt"
+        android:layout_marginTop="15pt"
+        android:textSize="20sp"/>
+</LinearLayout>
